@@ -1,11 +1,375 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gold Gym</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    
+    <header class="header-area">
+        <section class="tophead" style="width: 100%; background-color: yellow;">
+            <div class="container" style="font-size: 70%; text-align: start;">
+                <div class="row">
+                    <div class="col-md-3 mt-3"><i class="fa-solid fa-phone"></i> +91 987 654 3210</div>
+                    <div class="col-md-6  mt-2">Gold's Gym Fitness Institute: Central IVR Number +91 8067039831 Mumbai
+                        9029002873 Pune 9029002870 Delhi 9560044981
+                        Bengaluru 9987536492</div>
+                    <div class="col-md-3 my-3"><i class="fa-solid fa-envelope"></i> Wecare@goldsgym.in</div>
+                </div>
+            </div>
+        </section>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-1">
+                        <img src="img/logo1.png" alt="logo" width="70%" class="ps-0">
+                    </div>
+                    <!-- <div class="col-md-4"></div> -->
+                    <div class="col-md-11" style="position: relative; left: 30%;">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsibleNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                        data-bs-toggle="dropdown">Get
+                                        Started</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Our Gyms India</a></li>
+                                        <li><a class="dropdown-item" href="#">Our Gyms Nepal</a></li>
+                                        <li><a class="dropdown-item" href="#">Coming Soon</a></li>
+                                        <li><a class="dropdown-item" href="#">Pre-Sales</a></li>
+                                        <li><a class="dropdown-item" href="#">Amazing Offers</a></li>
+                                        <li><a class="dropdown-item" href="#">Buy Membership now</a></li>
+                                        <li><a class="dropdown-item" href="#">Blog</a></li>
+                                        <li><a class="dropdown-item" href="#">Calender 2023</a></li>
+                                        <li><a class="dropdown-item" href="#">Our Events</a></li>
+                                        <li><a class="dropdown-item" href="#">Our vendor Partners</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                        data-bs-toggle="dropdown">Fitness
+                                        Institute-GGFI</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">About Us</a></li>
+                                        <li><a class="dropdown-item" href="#">Our Faculty</a></li>
+                                        <li><a class="dropdown-item" href="#">Certifications & Accreditations</a></li>
+                                        <li><a class="dropdown-item" href="#">Course</a></li>
+                                        <li><a class="dropdown-item" href="#">Buy a course</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">Gallary</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                        data-bs-toggle="dropdown">Programs</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Coporate Membership</a></li>
+                                        <li><a class="dropdown-item" href="#">Personal Training Program</a></li>
+                                        <li><a class="dropdown-item" href="#">Quick Result Program</a></li>
+                                        <li><a class="dropdown-item" href="#">Group Program</a></li>
+                                        <li><a class="dropdown-item" href="#">Corporate Wellness Program</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">Franchise</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">Advertise with us</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                        data-bs-toggle="dropdown">Convention</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Bangkok 2023</a></li>
+                                        <li><a class="dropdown-item" href="#">Dubai 2022</a></li>
+                                        <li><a class="dropdown-item" href="#">KualaLampur 2029</a></li>
+                                        <li><a class="dropdown-item" href="#">Kochi 2018</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <button type="button" class="btn btn-outline-warning">Free Trial</button>
+                                </li>
+                                <li class="nav-item">
+                                    <button type="button" class="btn btn-warning">Join Now</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/slidermg1.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slidermg2.jpg" alt="Chicago" class="d-block" style="width:100%">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slidermg3.jpg" alt="New York" class="d-block" style="width:100%">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slidermg4.jpg" alt="New York" class="d-block" style="width:100%">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slidermg5.jpg" alt="New York" class="d-block" style="width:100%">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slidermg6.jpg" alt="New York" class="d-block" style="width:100%">
+                </div>
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <div class="container">
+            <div class="row my-5" style="text-align: center;">
+                <div class="page3" style="width: 100%; background-color: #fff;">
+                    <h3 style="text-align: center;margin-top: 7%;font-weight: 600;">We can give you</h3>
+                    <h2 style="text-align: center;font-weight: 600;color: rgb(246, 214, 6);">Much More Than Others</h2>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 col-ms-4">
+                    <img src="img/img1.webp" alt="img1">
+                    <p>156 Gyms</p>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 col-ms-4">
+                    <img src="img/img2.webp" alt="img1">
+                    <p>95 Cities</p>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 col-ms-4">
+                    <img src="img/img3.webp" alt="img1">
+                    <p>26 States</p>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 col-ms-4 mt-4">
+                    <img src="img/img4.webp" alt="img1">
+                    <p>Personal Training Program</p>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 col-ms-4 mt-3">
+                    <img src="img/img5.webp" alt="img1">
+                    <p>Corporate Wellness Program</p>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 col-ms-4 mt-4">
+                    <img src="img/img6.webp" alt="img1">
+                    <p>Group Program</p>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="background-image"
+            style="background-image:url('img/img\ bg.jpg'); background-size: cover; background-repeat: no-repeat; height: 350px; position: relative;">
+            <div class="overlay" style=" position: absolute; top: 0;left: 0;width: 100%;height: 100%;"></div>
+            <div class="content" style="text-align:start;padding: 20px;color: white;position: absolute;top: 50%;left: 50%;
+            transform: translate(-50%, -50%);">
+                <div class="container">
+                    <div class="row">
+                        <!-- <div class="col-md-1">                             
+                            </div> -->
+                        <div class="col-md-9" style="color: yellow;">
+                            <h1 class="card-title text-start fs-2">Download the Gold's Gym India App today</h1>
+                            <p class="card-text text-start">Get access to workout videos by international fitness
+                                trainers</p>
+                        </div>
+                        <div class="col-md-3">
+                            <button type="button" class="btn btn-outline-warning">Download Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="new page4 my-5" style="width: 100%;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 p-2">
+                        <img src="img/p4img1.png" alt="img" width="70%">
+                    </div>
+                    <div class="col-md-4 p-2">
+                        <img src="img/p4img2.png" alt="img" width="70%">
+                    </div>
+                    <div class="col-md-4 p-2">
+                        <img src="img/p4img3.png" alt="img" width="70%">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="background-image"
+            style="background-image:url('img/imgbg2.avif'); background-size: cover; background-repeat: no-repeat;height: 300px; position: relative;">
+            <div class="overlay" style=" position: absolute; top: 0;left: 0;width: 100%;height: 100%;"></div>
+            <div class="content" style="text-align:start;padding: 20px;color: white;position: absolute;top: 50%;left: 50%;
+                    transform: translate(-50%, -50%);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-ms-6 text-start fw-bolder" style="color: yellow;">
+                            <h1>Special Offer</h1>
+
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-ms-6" style="color: yellow;">
+                            <h4 class="card-title text-start ">Buy a Gold's Gym membership today</h4>
+                            <p class="card-text text-start">Start your fitness journey today</p>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-ms-6">
+                            <button type="button" class="btn btn-outline-warning">Sign Me Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="newpage">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6  mt-5">
+                        <h3 class="mb-4" style="text-align: center;">Our <span
+                                style="color: yellowgreen; font-style: italic;">Latest Video</span></h3>
+                        <div class="embed-responsive embed-responsive-16by9 mt-4">
+                            <iframe width="100%" height="315px" class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0"
+                                allow="autoplay;encrypted-media" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-ms-6 mt-5">
+                        <h2 class="text-start ps-4">GET IN TOUCH <span style="color: yellowgreen;">WITH US</span></h2>
+                        <div class="container">
+                            <form>
+                                <select class="form-select form-select-md custom-select my-2">
+                                    <option value="1">GET A FREE TRAINING SESSION</option>
+                                    <option value="2">JOIN THE GYM</option>
+                                    <option value="3">APPLAY FOR A JOB</option>
+                                    <option value="4">INTRESTED IN THE MONTHALY PROMO</option>
+                                    <option value="5">WRITE US A TESTIMONIAL</option>
+                                    <option value="6">ADVENTISE WITH US</option>
+                                    <option value="7">CONTACT US</option>
+                                    <option value="8">SUBSCRIBE TO OUR NEWSLETTER</option>
+                                </select>
+                                <input type="text" class="form-control my-4" placeholder="Enter Name" name="name">
+                                <input type="text" class="form-control my-4" placeholder="Enter Email" name="email">
+                                <input type="text" class="form-control my-4" placeholder="Enter Phone" name="phone">
+                                <input type="text" class="form-control my-4" placeholder="Enter State Name"
+                                    name="s name">
+                                <input type="text" class="form-control my-4" placeholder="Enter City Name"
+                                    name="c name">
+                            </form>
+                        </div>
+                        <button type="button" class="btn btn-warning">Join Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="newpage1 my-4">
+            <div class="container">
+                <div class="row">
+                    <h1 class="text-center">PRE-SALE OFFERS <span style="color: yellowgreen;">HAVE BEGUN</span></h1>
+                    <p class="text-center">BOOK NOW FOR SPECIAL RATES</p>
+                    <div class="col-md-4 my-xxl-4">
+                        <div class="card custom-card">
+                            <div class="card-body text-center">
+                                <p>Gold's Gym Pune Chinchwad</p>
+                                <a href="#" class="btn btn-warning">view</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mt-4">
+                        <div class="card custom-card">
+                            <div class="card-body text-center">
+                                <p>Gold's Gym Bengaluru Electronic City</p>
+                                <a href="#" class="btn btn-warning">view</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mt-4">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <p>Gold's Gym Shaikpet</p>
+                                <a href="#" class="btn btn-warning">view</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 my-4">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <p>Gold's Gym Bellandur</p>
+                                <a href="#" class="btn btn-warning">view</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="newpage2" style="background-color: black;width: 100%;">
+            <img src="img/lineimg.png" alt="img" class=" mx-auto d-block py-5">
+            <h3 class="text-center" style="color: white;"><span style="color: yellow;">GYMS COMING</span> Soon</h3>
+
+            <div class="col-md-3"></div>
+            <div class="col-md-3"></div>
+
+            <div class="col-md-3" style="margin-left:20%; margin-top: 6%;">
+                <p style="color: white;">GYMS COMING SOON :<span style="color: yellow;">KHARADI – PUNE - MAHARASHTRA|
+                        CHAKAN - PUNE - MAHARASHTRA| DIPHU - ASSAM | GURUGRAM - SECTOR 67 |
+                        BREACH CANDY - MUMBAI - MAHARASHTRA</span></p>
+            </div>
+            <div class="col-md-3"></div>
+
+        </div>
+
+    </header>
+
+
+
+
+
+
+
+
 </body>
+
 </html>
+<!-- https://goldsgym.in/#app-soon -->
